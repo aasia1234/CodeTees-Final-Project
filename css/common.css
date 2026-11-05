@@ -5,18 +5,21 @@
     display: flex;
 } */
 .menu .navbar nav ul {
-   display: flex;
+    display: flex;
     margin-top: -25px;
     margin-left: 424px;
     gap: 91px;
 }
-.navbar{
+.menu li a:hover{
+    color: #F6973F;
+}
+.navbar {
     margin-top: 40px;
     margin-left: 80px;
 }
 
-.menu .navbar img{
-   width: 77px;
+.navbar img {
+    width: 77px;
     height: 20px;
     margin-top: 40px;
     margin-left: 80px;
@@ -32,122 +35,115 @@ a {
     text-decoration: none;
     font-family: "Inter";
 }
-.bag img{
+
+.menu .bag img:hover{
+     width: 36px;
+     height: 36px;
+     cursor: pointer;
+}
+.menu .bag img {
     margin-left: 1326px;
     margin-top: -38px;
     width: 34px;
     height: 34px;
     position: absolute;
 }
-.cart img{
+.menu .cart img:hover{
+    width: 20px;
+    height: 25px;
+}
+.menu .cart img {
     margin-top: -33px;
     width: 20px;
     height: 25px;
     margin-left: 1344px;
 }
 
-.footer .main-footer-content{
+.footer .main-footer-content {
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-around;
 }
-.footer .main-footer-content .content{
-    width: 200px;
+
+.footer .main-footer-content .content {
+    width: 286px;
 }
-.footer h3{
+
+.footer h3 {
     font-family: "Inter";
     font-size: 28px;
-    
+
 }
-/* .footer p{
-    width: 293px;
-    margin-left: 188px;
-    font-size: 15px;
+
+.main-footer-content h2 {
+    font-size: 28px;
     font-family: "Inter";
-} */
-/* .footer ul span{
-color: #F6973F;
-font-family: "ABeeZee";
-width: 78.59px;
-font-size: 17px;
-margin-left: 633px;
+    margin-top: 118px;
 }
-.footer ul span li{
-   margin-top: -7px;
-    font-size: 18px;
+
+.main-footer-content h3 {
+    color: #F6973F;
+    font-family: "ABeeZee";
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 120px;
+    margin-bottom: -20px;
 }
-.footer ul {
+
+.main-footer-content .content p {
+    padding-top: 18px;
     font-family: "Inter";
-width: 78.59px;
-font-size: 17px;
-margin-left: 633px;
-margin-top: -146px;
-}
-.footer li{
-    line-height: 196%;
     font-size: 15px;
-    font-family: "''Inter'";
+
+}
+
+.footer-content ul {
+    margin-top: 52px;
+    margin-left: -37px;
+}
+
+.footer-content ul li {
+    width: 113px;
+    line-height: 200%;
+
+}
+
+.footer-content li {
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.follow-us img {
+    width: 16px;
+    height: 25px;
+    margin-right: 13px;
+    vertical-align: middle;
+}
+
+.Copyright {
+    margin-top: 68px;
+    margin-left: 99px;
+    opacity: 50%;
+}
+
+.terms {
+    display: flex;
+    margin-left: 985px;
+}
+
+.terms h5 {
+    font-family: "Inter";
+    margin-right: 67px;
+    font-size: 14px;
     opacity: 80%;
+    margin-top: -18px;
 }
-.footer .Furniture ul span{
-color: #F6973F;
-font-family: "ABeeZee";
-width: 78.59px;
-font-size: 17px;
-margin-left: 633px;
-}
-.footer .Furniture ul span li{
-   margin-top: -7px;
-    font-size: 18px;
-}
-.footer .Furniture ul {
+
+.terms h6 {
     font-family: "Inter";
-width: 78.59px;
-font-size: 17px;
-margin-left: 876px;
-margin-top: -155px;
-}
-.footer .Furniture li{
-    line-height: 196%;
-    font-size: 15px;
-    font-family: "''Inter'";
+    font-size: 14px;
+    margin-top: 24px;
     opacity: 80%;
+    margin-top: -18px;
 }
-.footer .Follow-us{
-    margin-top: 10px;
-}
-.footer .Follow-us ul span{
-color: #F6973F;
-font-family: "ABeeZee";
-width: 78.59px;
-font-size: 17px;
-margin-left: 633px;
-}
-.footer .Follow-us ul span li{
-   margin-top: -7px;
-    font-size: 18px;
-}
-.footer .Follow-us ul {
-    font-family: "Inter";
-width: 78.59px;
-font-size: 17px;
-margin-left: 1119px;
-margin-top: -155px;
-}
-.footer .Follow-us li{
-    line-height: 196%;
-    font-size: 15px;
-    font-family: "''Inter'";
-    opacity: 80%;
-}
-.Follow-us .icon-img img{
-    width: 9.92px;
-    height: 19.84px;
-    display: block;
-}
-.footer small{
-    margin-left: 188px;
-    margin-top: 132px;
-    position: absolute;
-    opacity: 50%
-} */
