@@ -1,13 +1,23 @@
+<<<<<<< HEAD
 body {
     overflow-x: hidden;
 }
 
+=======
+body{
+    overflow-x: hidden;
+}
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
 .menu {
     background-image: url(../images/background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1550px;
+<<<<<<< HEAD
+
+=======
+    /* width: 1550px; */
+>>>>>>> 76fac0e48213b2bbb571295de76a0770bfea0029
     height: 1084px;
     margin-top: -40px;
 }
@@ -16,7 +26,7 @@ body {
     position: absolute;
     margin-top: -893px;
     color: white;
-    /* width: 52%; */
+    width: 93%;
     margin-left: 356px;
 }
 
@@ -37,7 +47,11 @@ h1 {
     opacity: 80%;
     width: 57%;
     text-align: center;
+<<<<<<< HEAD
     margin-left: 101px;
+=======
+    margin-left: 104px;
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
     line-height: 35px;
     font-size: 24px;
     margin-top: 41px;
@@ -51,7 +65,7 @@ h1 {
 
 .search-box {
     width: 344px;
-    margin-left: 257px;
+    margin-left: 232px;
     margin-top: 45px;
 }
 
@@ -104,9 +118,14 @@ h1 {
     height: 32px;
     margin-left: 1076px;
 }
+<<<<<<< HEAD
+/* .down-border{
+   border: 0 solid;
+=======
 
 .down-border {
     border: 0 solid;
+>>>>>>> 76fac0e48213b2bbb571295de76a0770bfea0029
     background-color: white;
     width: 1550px;
     height: 217px;
@@ -208,7 +227,7 @@ h1 {
 }
 
 .new-sec {
-    width: 1550px;
+    /* width: 1550px; */
     height: 900px;
     background-color: rgba(247, 247, 247, 1);
 }
@@ -338,14 +357,23 @@ h1 {
     margin-left: 21px;
 }
 
-/* chair 2 css*/
+
 .chair-2 {
     height: 268.09px;
     width: 239.15px;
     background-color: rgba(250, 250, 250, 1);
+<<<<<<< HEAD
     margin-top: -421px;
+=======
+    margin-top: -449px;
+<<<<<<< HEAD
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
     margin-left: 455px;
     border-top-left-radius: 20px;
+=======
+   margin-left: 455px;
+    border-top-left-radius:20px;
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
     border-top-right-radius: 20px;
 }
 
@@ -414,14 +442,26 @@ h1 {
     margin-left: 21px;
 }
 
+<<<<<<< HEAD
+=======
 /* Chair 3 Css */
+>>>>>>> 76fac0e48213b2bbb571295de76a0770bfea0029
 .chair-3 {
     height: 268.09px;
     width: 239.15px;
     background-color: rgba(250, 250, 250, 1);
+<<<<<<< HEAD
     margin-top: -420px;
+=======
+    margin-top: -449px;
+<<<<<<< HEAD
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
     margin-left: 804.17px;
     border-top-left-radius: 20px;
+=======
+        margin-left: 804.17px;
+    border-top-left-radius:20px;
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
     border-top-right-radius: 20px;
 }
 
@@ -490,13 +530,27 @@ h1 {
 }
 
 /* chair 4 css */
+<<<<<<< HEAD
+/* .chair-4 {
+   height: 268.09px;
+=======
 .chair-4 {
     height: 268.09px;
+>>>>>>> 76fac0e48213b2bbb571295de76a0770bfea0029
     width: 239.15px;
     background-color: rgba(250, 250, 250, 1);
+<<<<<<< HEAD
     margin-top: -435px;
+=======
+    margin-top: -449px;
+<<<<<<< HEAD
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
     margin-left: 1151.45px;
     border-top-left-radius: 20px;
+=======
+      margin-left: 1151.45px;
+    border-top-left-radius:20px;
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
     border-top-right-radius: 20px;
 }
 
@@ -577,6 +631,7 @@ h1 {
     position: absolute;
     margin-top: 46px;
 }
+<<<<<<< HEAD
 
 .right-content h2 {
     font-family: "inter";
@@ -595,7 +650,7 @@ h1 {
     align-items: center;
     gap: 80px;
     max-width: 1100px;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 120px;
 }
 
@@ -664,11 +719,24 @@ h1 {
 }
 
 /* material css */
+<<<<<<< HEAD
+=======
+.material{
+    /* width: 100%; */
+}
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
 .material-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
     padding-top: 192px;
+=======
+    width: 1440px;
+    margin-top: 78px;
+    margin-top: 166px;
+    
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
 
 }
 
@@ -860,6 +928,7 @@ h1 {
     width: 14px;
     height: 14px;
 }
+<<<<<<< HEAD
 #myForm {
   max-width: 600px;
   margin: 0 auto;
@@ -932,3 +1001,137 @@ label.error {
   font-size: 12px;
   margin-top: 5px;
 }
+=======
+/* ===== GET IN TOUCH SECTION - WITHOUT VALIDATION ===== */
+.contact-section{
+  display: flex;
+  gap: 60px;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+  font-family: 'Inter';
+  align-items: flex-start;
+}
+.contact-left{ flex: 1; }
+.get-in-touch{
+  color: #F68B1F;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.contact-left h1{
+  font-size: 34px;
+  line-height: 1.2;
+  color: #111;
+  margin-bottom: 12px;
+  font-family: "ABeeZee";
+}
+.contact-desc{
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.contact-item{
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.icon-box{
+  background: #FFF1E3;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.contact-item h4{
+  font-size: 15px;
+  margin-bottom: 3px;
+  color: #111;
+}
+.contact-item p{
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  font-family: "Inter";
+}
+
+/* Right Form Box */
+.contact-right{
+  flex: 1.2;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 15px;
+  padding: 28px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.06);
+}
+.contact-right h2{
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #111;
+}
+.two-inputs{
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+.two-inputs input{ flex: 1; }
+.contact-right input,
+.contact-right select,
+.contact-right textarea{
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  background: #fff;
+  margin-bottom: 15px;
+  font-family: "Inter";
+}
+.contact-right label{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.contact-right textarea{ resize: vertical; }
+.contact-right button{
+  width: 100%;
+  background: #F68B1F;
+  color: #fff;
+  border: none;
+  padding: 13px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.contact-right button:hover{ background: #e07a10; }
+
+/* Mobile */
+@media (max-width: 768px){
+  .contact-section{ flex-direction: column; gap: 30px; }
+  .two-inputs{ flex-direction: column; }
+=======
+.sofa img{
+    width: 629px;
+    height: 445px;
+    margin-top: 306px;
+}
+.Experiance h3{
+    color: #E58411;
+    margin-left: 743px;
+    margin-top: 10px;
+<<<<<<< HEAD
+} */ 
+=======
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
+}
+>>>>>>> 76fac0e48213b2bbb571295de76a0770bfea0029
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5

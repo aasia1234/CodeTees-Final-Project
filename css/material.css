@@ -350,7 +350,11 @@
     /* width: 1440px; */
     text-align: center;
     padding: 15px 20px 10px;
+<<<<<<< HEAD
     /* background-color: #F8F8F8; */
+=======
+    background-color: #F8F8F8;
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
     padding-bottom: 20px;
     padding-top: 45px;
 }
