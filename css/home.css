@@ -3,7 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1550px;
+
     height: 1084px;
     margin-top: -40px;
 }
@@ -83,7 +83,7 @@ h1{
     height: 32px;
     margin-left: 1076px;
 }
-.down-border{
+/* .down-border{
    border: 0 solid;
     background-color: white;
     width: 1550px;
@@ -270,7 +270,7 @@ margin-top: -92px;
     margin-left: 21px;
 }
 
-/* chair 2 css*/
+
 .chair-2 {
    height: 268.09px;
     width: 239.15px;
@@ -331,7 +331,7 @@ margin-top: -92px;
     font-weight: 600;
     margin-left: 21px;
 }
-/* Chair 3 Css */
+
 .chair-3 {
    height: 268.09px;
     width: 239.15px;
@@ -393,7 +393,7 @@ margin-top: -92px;
     margin-left: 21px;
 }
 /* chair 4 css */
-.chair-4 {
+/* .chair-4 {
    height: 268.09px;
     width: 239.15px;
     background-color: rgba(250, 250, 250, 1);
@@ -469,4 +469,4 @@ margin-top: -92px;
     color: #E58411;
     margin-left: 743px;
     margin-top: 10px;
-}
+} */ 
