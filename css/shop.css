@@ -1,3 +1,837 @@
-h2{
-    font-size: 40px;
+.section-2 {
+    background: #F7F7F7;
+    background: linear-gradient(90deg, rgba(247, 247, 247, 1) 0%, rgba(247, 247, 247, 1) 100%, rgba(247, 247, 247, 1) 100%);
+    width: 1513px;
+    margin-top: -50px;
+}
+
+.section-2 .All-products a {
+    border-radius: 42px;
+    border: 0 solid;
+    background-color: rgba(229, 132, 17, 1);
+    color: white;
+    margin-top: 78px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+    text-decoration: none;
+    width: 7%;
+    margin-left: 20%;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 20px;
+}
+.products{
+    margin-left: 164px;
+}
+
+.All-products {
+    margin-top: 10px;
+    padding-top: 7px;
+}
+
+.chair {
+    margin-top: -125px;
+    padding-top: 7px;
+    margin-left: 185px;
+}
+
+.section-2 .chair a {
+    border-radius: 42px;
+    border: 0 solid;
+    background-color: rgba(238, 238, 238, 1);
+    color: black;
+    margin-top: 79px;
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 27px;
+    text-decoration: none;
+    width: 4%;
+    margin-left: 20%;
+    padding-right: 19px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.Tables {
+    margin-top: -127px;
+    padding-top: 7px;
+    margin-left: 319px;
+}
+
+.section-2 .Tables a {
+    border-radius: 42px;
+    border: 0 solid;
+    background-color: rgba(238, 238, 238, 1);
+    color: black;
+    margin-top: 79px;
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 24px;
+    text-decoration: none;
+    width: 4%;
+    margin-left: 20%;
+    padding-right: 24px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.Sofas {
+    margin-top: -127px;
+    padding-top: 7px;
+    margin-left: 455px;
+}
+
+.section-2 .Sofas a {
+    border-radius: 42px;
+    border: 0 solid;
+    background-color: rgba(238, 238, 238, 1);
+    color: black;
+    margin-top: 79px;
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 24px;
+    text-decoration: none;
+    width: 4%;
+    margin-left: 20%;
+    padding-right: 24px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.beds {
+    margin-top: -127px;
+    padding-top: 7px;
+    margin-left: 584px;
+}
+
+.section-2 .beds a {
+    border-radius: 42px;
+    border: 0 solid;
+    background-color: rgba(238, 238, 238, 1);
+    color: black;
+    margin-top: 79px;
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 24px;
+    text-decoration: none;
+    width: 4%;
+    margin-left: 20%;
+    padding-right: 24px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.storage {
+    margin-top: -127px;
+    padding-top: 7px;
+    margin-left: 703px;
+}
+
+.section-2 .storage a {
+    border-radius: 42px;
+    border: 0 solid;
+    background-color: rgba(238, 238, 238, 1);
+    color: black;
+    margin-top: 79px;
+    display: flex;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+    text-decoration: none;
+    width: 4%;
+    margin-left: 20%;
+    padding-right: 45px;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.product-img{
+    display: flex;
+}
+.All-content{
+  background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 268.09px;
+    margin-left: 121px;
+    margin-top: 136px;
+}
+.All-content img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.All-content .chair-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.All-content .chair-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.All-content .chair-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.All-content .chair-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.All-content .chair-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.chair-bottom .plus-sign img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+/* //blue_chair */
+.blue-chair{
+  background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 268.09px;
+    margin-left: 80px;
+    margin-top: 136px;
+}
+.blue-chair img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.blue-chair .blue-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.blue-chair .blue-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.blue-chair .blue-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.blue-chair .blue-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.blue-chair .blue-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.blue-bottom .plus-sign img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+/* //brown_chair */
+.brown-chair{
+  background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 268.09px;
+    margin-left: 80px;
+    margin-top: 136px;
+}
+.brown-chair img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.brown-chair .anjay-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.brown-chair .anjay-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.brown-chair .anjay-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.brown-chair .anjay-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.brown-chair .anjay-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.anjay-bottom .plus-sign img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+/* //white_chair */
+.white-chair{
+  background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 268.09px;
+    margin-left: 80px;
+    margin-top: 136px;
+}
+.white-chair img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.white-chair .last-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.white-chair .last-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.white-chair .last-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.white-chair .last-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.white-chair .last-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.last-bottom .plus-sign img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+.section-3{
+    background: #F7F7F7;
+    background: linear-gradient(90deg, rgba(247, 247, 247, 1) 0%, rgba(247, 247, 247, 1) 100%, rgba(247, 247, 247, 1) 100%);
+    width: 1513px;
+    height: 1439px;
+    margin-top: -50px;
+}
+.sec-3-imgs{
+    display: flex;
+}
+/* tables*/
+.tables{
+  background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 268.09px;
+   margin-left: 124px;
+    margin-top: 342px;
+}
+.tables img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.tables .table-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.tables .table-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.tables .table-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.tables .table-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.tables .table-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.table-bottom .plus-sign img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+/* Sofas*/
+.sofas{
+  background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 268.09px;
+   margin-left: 83px;
+    margin-top: 342px;
+}
+.sofas img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.sofas .sofa-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.sofas .sofa-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.sofas .sofa-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.sofas .sofa-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.sofas .sofa-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.sofa-bottom .plus-sign img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+/* beds */
+.beds-cart{
+  background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 268.09px;
+   margin-left: 83px;
+    margin-top: 342px;
+}
+.beds-cart img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.beds-cart .bed-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.beds-cart .bed-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.beds-cart .bed-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.beds-cart .bed-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.beds-cart .bed-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.bed-bottom .plus-sign-bed img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+
+/*Storage */
+.storage-cart{
+  background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 268.09px;
+   margin-left: 83px;
+    margin-top: 342px;
+}
+.storage-cart img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.storage-cart .storage-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.storage-cart .storage-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.storage-cart .storage-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.storage-cart .storage-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.storage-cart .storage-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.storage-bottom .plus-sign-bed img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+
+
+/*Round table */
+.coffee-table{
+  background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 268.09px;
+   margin-left: -1321px;
+   margin-top: 874px;
+}
+.coffee-table img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.coffee-table .coffee-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.coffee-table .coffee-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.coffee-table .coffee-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.coffee-table .coffee-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.coffee-table .coffee-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.coffee-bottom .plus-sign-bed img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+
+/*Relax chair */
+.relax-chair{
+     background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 259.09px;
+    margin-left: -962px;
+    margin-top: -270px;
+}
+.relax-chair img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.relax-chair .rchair-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.relax-chair .rchair-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.relax-chair .rchair-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.relax-chair .rchair-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.relax-chair .rchair-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.rchair-bottom .plus-sign-bed img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+/*Loveseat sofa */
+.seater-sofa{
+     background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 259.09px;
+    margin-left: -610px;
+    margin-top: -270px;
+}
+.seater-sofa img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.seater-sofa .seater-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.seater-sofa .seater-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.seater-sofa .seater-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.seater-sofa .seater-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.seater-sofa .seater-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.seater-bottom .plus-sign-bed img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
+}
+
+/* bedside table */
+.bedside-table{
+     background-color: rgba(250, 250, 250, 1);
+    height: 268.15px;
+    width: 259.09px;
+    margin-left: -263px;
+    margin-top: -270px;
+}
+.bedside-table img{
+   width: 217.9px;
+    height: 257.9px;
+    margin-left: 38px;
+}
+.bedside-table .bside-bottom{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    margin-top: -14px;
+}
+.bedside-table .bside-bottom img{
+   width: 103.58px;
+    height: 18.28px;
+    margin-left: 21px;
+    margin-top: -5px;
+}
+.bedside-table .bside-bottom h3{
+    font-family: "ABeeZee";
+    font-weight: 400;
+    opacity: 70%;
+    font-size: 16.76px;
+    padding-top: 12px;
+    padding-left: 21px;
+}
+.bedside-table .bside-bottom h2{
+    font-family: "ABeeZee";
+    font-weight: 600;
+    font-size: 21.36px;
+    padding-left: 21px;
+}
+.bedside-table .bside-bottom h4{
+    font-family: "Inter";
+    font-size: 21.33px;
+    font-size: 600;
+    padding-left: 21px;
+    margin-top: 46px;
+}
+.bside-bottom .plus-sign-bed img{
+    width: 48.74px;
+    height: 48.74px;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 207px;
 }
