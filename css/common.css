@@ -95,7 +95,6 @@ h1{
     margin-left: 424px;
     gap: 91px;
 }
-
 .navbar {
     margin-top: 40px;
     margin-left: 80px;
@@ -126,7 +125,6 @@ a {
     height: 34px;
     position: absolute;
 }
-
 .menu .cart img {
     margin-top: -33px;
     width: 20px;
@@ -197,7 +195,8 @@ a {
 }
 
 .Copyright {
-    margin-top: -53px;
+
+    margin-top: 68px;
     margin-left: 99px;
     opacity: 50%;
 }
