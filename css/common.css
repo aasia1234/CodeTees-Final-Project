@@ -10,9 +10,13 @@
     margin-left: 424px;
     gap: 91px;
 }
+<<<<<<< HEAD
 .menu li a:hover{
     color: #F6973F;
 }
+=======
+
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
 .navbar {
     margin-top: 40px;
     margin-left: 80px;
@@ -36,11 +40,14 @@ a {
     font-family: "Inter";
 }
 
+<<<<<<< HEAD
 .menu .bag img:hover{
      width: 36px;
      height: 36px;
      cursor: pointer;
 }
+=======
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
 .menu .bag img {
     margin-left: 1326px;
     margin-top: -38px;
@@ -48,10 +55,14 @@ a {
     height: 34px;
     position: absolute;
 }
+<<<<<<< HEAD
 .menu .cart img:hover{
     width: 20px;
     height: 25px;
 }
+=======
+
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
 .menu .cart img {
     margin-top: -33px;
     width: 20px;
@@ -107,8 +118,12 @@ a {
     line-height: 200%;
 
 }
+<<<<<<< HEAD
 
 .footer-content li {
+=======
+.footer-content li{
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
     font-family: "Inter";
     font-size: 15px;
     font-weight: 400;
@@ -122,7 +137,11 @@ a {
 }
 
 .Copyright {
+<<<<<<< HEAD
     margin-top: 68px;
+=======
+    margin-top: 200px;
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
     margin-left: 99px;
     opacity: 50%;
 }
@@ -137,7 +156,11 @@ a {
     margin-right: 67px;
     font-size: 14px;
     opacity: 80%;
+<<<<<<< HEAD
     margin-top: -18px;
+=======
+    margin-top: -16px;
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
 }
 
 .terms h6 {
@@ -145,5 +168,9 @@ a {
     font-size: 14px;
     margin-top: 24px;
     opacity: 80%;
+<<<<<<< HEAD
     margin-top: -18px;
+=======
+    margin-top: -16px;
+>>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
 }
