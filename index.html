@@ -6,13 +6,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panto- Furniture Website</title>
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/common.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Acme&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/material.css">
 </head>
 
 <body>
@@ -23,7 +26,7 @@
                 <nav>
                     <ul>
                         <li><a href="#">Furniture </a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="material.html">Material</a></li>
                         <li><a href="#">Shope</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -64,8 +67,8 @@
         <div class="down-border">
             <h2>Why Choosing Us</h2>
             <h6>Luxury facilities</h6>
-            <p>The advantage of hiring a workspace with us
-                is that givees you comfortable service
+            <p>The advantage of hiring a workspace with us<br>
+                is that givees you comfortable service<br>
                 and all-around facilities.</p>
             <a href="#">More Info <span style='font-size:14px;'>&#8594</span></a>
 
@@ -140,7 +143,7 @@
         </div>
         <div class="chair-4-bottom-border">
             <h5>Chair</h5>
-            <h4>Anjay Chair</h4>
+            <h4>Relax chair</h4>
             <img src="images/Stars.png" alt="stars">
             <h6>$519</h6>
             <div class="plus-4"><img src="images/plus.png" alt=""></div>
@@ -153,30 +156,40 @@
     </section>
     <!-- Experiance section -->
 <<<<<<< HEAD
+    <section class="experience-section">
+        <!-- Left Image -->
+        <div class="left-img">
+            <img src="images/sofa.png" alt="Sofa">
+        </div>
+=======
+<<<<<<< HEAD
    <section class="experience-section">
  <!-- Left Image -->
  <div class="left-img">
  <img src="images/sofa.png" alt="Sofa">
  </div>
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
 
- <!-- Right Text -->
- <div class="right-content">
-  <h2>Experiences</h2>
- <h1>We Provide You The<br>Best Experience</h1>
- <p>You don't have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and luxurious style and with premium quality materials</p>
- <a href="#" class="more-info">More Info <span class="arrow">⟶</span></a>
- </div>
- </section>
- <!-- material section -->
-     <section class="material">
+        <!-- Right Text -->
+        <div class="right-content">
+            <h2>Experiences</h2>
+            <h1>We Provide You The<br>Best Experience</h1>
+            <p>You don't have to worry about the result because all of these interiors are made by people who are
+                professionals in their fields with an elegant and luxurious style and with premium quality materials</p>
+            <a href="#" class="more-info">More Info <span class="arrow">⟶</span></a>
+        </div>
+    </section>
+    <!-- Material section -->
+    <section>
         <div class="material-section">
             <div class="material-content">
                 <p class="material-heading">MATERIALS</p>
                 <h1> Very Serious Material For Making Furniture</h1>
-                <p>Because panto was very serious about designing furniture for our environment, using a very expensive
+                <p>Because panto was very serious about designing furniture for our environment, using a very
+                    expensive
                     and famous capital but at a relatively low price</p>
                 <div class="info-btns">
-                    <a href="#" class="more-info">More Info <span class="arrow">⟶</span></a>
+                    <a href="material.html">More Info</a><img src="./images/arrow.png" alt="arrow">
                 </div>
             </div>
             <div class="material-image">
@@ -188,19 +201,18 @@
                         <img src="./images/small image2.png" alt="image2">
                     </div>
                 </div>
-            </div>
-            <div class="large-image">
-                <img src="./images/large image1.png" alt="image3">
-            </div>
-        </div>
-        </div>
 
+                <div class="large-image">
+                    <img src="./images/large image1.png" alt="image3">
+                </div>
+            </div>
+        </div>
     </section>
 
 
 
-<!-- review section -->
-  <div class="reviews">
+    <!-- review section -->
+    <div class="reviews">
         <p class="small">TESTIMONIALS</p>
         <h2>Our Client Reviews</h2>
 
@@ -232,7 +244,8 @@
                     <img class="person" src="images/logo2.png">
                     <h4>Ibuk Sukijan</h4>
                     <span>Ibu Rumah Tangga</span>
-                    <p>"Makasih Panto, aku sekarang berasa <br> tinggal di apartment karena barang- <br>barang yang terlihat
+                    <p>"Makasih Panto, aku sekarang berasa <br> tinggal di apartment karena barang- <br>barang yang
+                        terlihat
                         mewah"</p>
                     <div class="stars">
                         <img src="images/star1.png">
@@ -265,6 +278,41 @@
 
         </div>
     </div>
+<<<<<<< HEAD
+    <section>
+        <form id="myForm">
+            <div class="form-inputs">
+                <div class="input">
+                    <label for="">First name</label>
+                    <input type="text" name="firstname" placeholder="First name">
+                </div>
+                <div class="input">
+                    <label for="">Last name</label>
+                    <input type="text" name="lastname" placeholder="Last name">
+                </div>
+            </div>
+            <div class="form-inputs">
+                <div class="input">
+                    <label for="">Email</label>
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+                <div class="input">
+                    <label for="">Phone</label>
+                    <input type="text" name="phone" placeholder="phone">
+                </div>
+            </div>
+            <div class="form-inputs">
+                <div class="input">
+                    <label for="">Address</label>
+                    <input type="text" name="Address" placeholder="Address">
+                    <button type="submit">Send Massege</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <script>
+    </script>
+=======
    <!-- GET IN TOUCH SECTION - WITHOUT VALIDATION -->
 <section class="contact-section">
     <div class="contact-left">
@@ -332,6 +380,7 @@
     </section>
 
 >>>>>>> 815257b9720cfcf9bab7e04f7d6a10b317373f80
+>>>>>>> f6a8c3668f479070a02f48b747177eae9f0ee3e5
     <!-- footer section -->
     <footer class="footer">
         <div class="main-footer-content">
@@ -371,10 +420,11 @@
         </div>
         <div class="terms">
             <h5>Terms & Conditions</h5>
-             <h6>Privacy Policy</h6>
+            <h6>Privacy Policy</h6>
         </div>
 
     </footer>
+    <script src="css/app.js"></script>
 </body>
 
 </html>
