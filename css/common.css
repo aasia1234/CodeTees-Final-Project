@@ -24,9 +24,10 @@
 }
 
 .material h1 {
+    color: #F6973F;
     width: 50%;
     padding-top: -5px;
-    padding-left: 280px;
+    padding-left: 189px;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h1 {
     opacity: 80%;
     width: 57%;
     text-align: center;
-    margin-left: 178px;
+    margin-left: 75px;
     line-height: 25px;
     font-size: 24px;
     margin-top: -7px;
@@ -49,8 +50,8 @@ h1 {
 
 .search-box {
     width: 344px;
-    margin-left: 257px;
-    padding-top: -9px;
+    margin-left: 150px;
+    padding-top: -15px;
 }
 
 .search-box h5 {
