@@ -3,16 +3,188 @@
 } */
 /* .menu{
     display: flex;
+
 } */
+.menu {
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1550px;
+    height: 600px;
+    margin-top: -40px;
+}
+
+.main .material {
+    position: absolute;
+    margin-top: -500px;
+    color: white;
+    /* width: 52%; */
+    margin-left: 356px;
+}
+
+.material h1 {
+    color: #F6973F;
+    width: 50%;
+    padding-top: -5px;
+    padding-left: 189px;
+}
+
+h1 {
+    font-family: "Acme";
+    font-weight: 400;
+    font-size: 70px;
+    opacity: 100%;
+}
+
+.material p {
+    font-family: "ABeeZee";
+    opacity: 80%;
+    width: 57%;
+    text-align: center;
+    margin-left: 75px;
+    line-height: 25px;
+    font-size: 24px;
+    margin-top: -7px;
+}
+
+.search-box {
+    width: 344px;
+    margin-left: 150px;
+    padding-top: -15px;
+}
+
+.search-box h5 {
+    border-radius: 42px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15.5px;
+    font-family: "ABeeZee";
+    font-weight: 200;
+    opacity: 80%;
+}
+
+.search-box img {
+    width: 40px;
+    height: 40px;
+    margin-top: -44px;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.color-palat img {
+    width: 112px;
+    height: 137.6px;
+    margin-left: -89px;
+    margin-top: 1px;
+}
+
+.color-1 {
+    margin-left: -336px;
+}
+
+.color-1 img {
+    width: 32px;
+    height: 32px;
+    margin-top: 0px;
+}
+
+.color-2 img {
+    width: 32px;
+    height: 32px;
+    margin-left: 480px;
+    margin-top: 10px;
+}
+
+.color-3 img {
+    width: 32px;
+    height: 32px;
+    margin-left: 1076px;
+}
+
+
+#myForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-inputs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.input {
+    flex: 1;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.service-input {
+    margin-bottom: 20px;
+}
+
+.service-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.service-input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 243px;
+    margin-top: 19px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+label.error {
+    color: red;
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
 .menu .navbar nav ul {
     display: flex;
     margin-top: -25px;
     margin-left: 424px;
     gap: 91px;
 }
-.menu li a:hover{
-    color: #F6973F;
-}
+
 .navbar {
     margin-top: 40px;
     margin-left: 80px;
@@ -36,11 +208,6 @@ a {
     font-family: "Inter";
 }
 
-.menu .bag img:hover{
-     width: 36px;
-     height: 36px;
-     cursor: pointer;
-}
 .menu .bag img {
     margin-left: 1326px;
     margin-top: -38px;
@@ -48,10 +215,7 @@ a {
     height: 34px;
     position: absolute;
 }
-.menu .cart img:hover{
-    width: 20px;
-    height: 25px;
-}
+
 .menu .cart img {
     margin-top: -33px;
     width: 20px;
@@ -63,10 +227,11 @@ a {
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 100px;
 }
 
 .footer .main-footer-content .content {
-    width: 286px;
+    width: 269px;
 }
 
 .footer h3 {
@@ -88,6 +253,9 @@ a {
     font-weight: 300;
     margin-top: 120px;
     margin-bottom: -20px;
+    margin-left: -34px;
+    margin-left: -40px;
+    margin-left: -37px;
 }
 
 .main-footer-content .content p {
@@ -122,14 +290,19 @@ a {
 }
 
 .Copyright {
+
+    margin-top: 124px;
+    margin-left: 150px;
     margin-top: 68px;
     margin-left: 99px;
     opacity: 50%;
+    margin-bottom: 44px;
 }
 
 .terms {
     display: flex;
     margin-left: 985px;
+    margin-bottom: 66px;
 }
 
 .terms h5 {
@@ -137,7 +310,15 @@ a {
     margin-right: 67px;
     font-size: 14px;
     opacity: 80%;
+
+    margin-top: -16px;
+
+    margin-top: -54px;
+
     margin-top: -18px;
+
+    margin-top: -16px;
+
 }
 
 .terms h6 {
@@ -145,5 +326,10 @@ a {
     font-size: 14px;
     margin-top: 24px;
     opacity: 80%;
+    margin-top: -16px;
+    margin-top: -54px;
     margin-top: -18px;
+    margin-top: -16px;
+    margin-left: 225px;
+
 }

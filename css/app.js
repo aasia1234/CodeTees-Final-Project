@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> aa2c45adb8349f584d0825e0c9807214bbe58d23
 $("#myForm").validate({
 
     rules: {
@@ -19,6 +22,7 @@ $("#myForm").validate({
             required: true
         },
 
+<<<<<<< HEAD
         date: {
             required: true
         },
@@ -30,6 +34,11 @@ $("#myForm").validate({
         Address: {
             required: true
         }
+=======
+        Address: {
+            required: true
+        },
+>>>>>>> aa2c45adb8349f584d0825e0c9807214bbe58d23
 
     },
 
@@ -38,9 +47,13 @@ $("#myForm").validate({
         lastname: "Please enter your last name",
         email: "Please enter a valid email",
         phone: "Please enter your phone number",
+<<<<<<< HEAD
         date: "Please enter date",
         time: "Please enter time",
         Address: "Please enter your Address"
+=======
+        address: "Please enter your Address",
+>>>>>>> aa2c45adb8349f584d0825e0c9807214bbe58d23
         
     },
       submitHandler: function(form) {

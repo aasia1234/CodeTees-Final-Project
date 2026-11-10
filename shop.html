@@ -1,12 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/shop.css">
+    <title>Shop</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Acme&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+     rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
 </head>
+
 <body>
-    <h2>Shop page</h2>
+    <header>
+        <div class="menu">
+            <div class="navbar">
+                <img src="images/log panto.png" alt="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#">Furniture </a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="bag">
+                    <img src="images/Bag.png" alt="bag">
+                    <div class="cart">
+                        <img src="images/cart no.png" alt="no">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="material">
+            <h1>
+                Our Shop
+            </h1>
+            <p>Discover Stylish and comfortable furniture for your modern home.</p>
+            <div class="search-box">
+                <h5>Search Furniture</h5>
+                <img src="images/search.png" alt="search">
+            </div>
+            <!-- <div class="color-palat">
+                <img src="images/color constras.png" alt="color">
+            </div>
+            <div class="color-1">
+                <img src="images/color 1.png" alt="color-1">
+            </div>
+            <div class="color-2">
+                <img src="images/color-2.png" alt="color-2">
+            </div>
+            <div class="color-3">
+                <img src="images/color-3.png" alt="color">
+            </div> -->
+        </div>
+
+
+        <section class="section-2">
+            <div class="products">
+                <div class="All-products">
+                    <a href="#">All products</a>
+                </div>
+                <div class="chair">
+                    <a href="#">Chair</a>
+                </div>
+                <div class="Tables">
+                    <a href="#">Tables</a>
+                </div>
+                <div class="Sofas">
+                    <a href="#">Sofas</a>
+                </div>
+                <div class="beds">
+                    <a href="#">Beds</a>
+                </div>
+                <div class="storage">
+                    <a href="#">Storage</a>
+                </div>
+            </div>
+            <div class="product-img">
+                <div class="All-content">
+                    <img src="images/chair 1.png" alt="">
+                    <div class="chair-bottom">
+                        <h3>Chair</h3>
+                        <h2>Sakarias Armchair</h2>
+                        <img src="images/stars.png" alt="">
+                        <h4>$392</h4>
+                        <div class="plus-sign">
+                            <img src="images/plus.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blue-chair">
+                    <img src="images/chair 2.png" alt="">
+                    <div class="blue-bottom">
+                        <h3>Chair</h3>
+                        <h2>Baltsar Chair</h2>
+                        <img src="images/stars.png" alt="">
+                        <h4>$299</h4>
+                        <div class="plus-sign">
+                            <img src="images/plus.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="brown-chair">
+                    <img src="images/chair 3.png" alt="">
+                    <div class="anjay-bottom">
+                        <h3>Chair</h3>
+                        <h2>Baltsar Chair</h2>
+                        <img src="images/stars.png" alt="">
+                        <h4>$519</h4>
+                        <div class="plus-sign">
+                            <img src="images/plus.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="white-chair">
+                    <img src="images/chair 4.png" alt="">
+                    <div class="last-bottom">
+                        <h3>Chair</h3>
+                        <h2>Baltsar Chair</h2>
+                        <img src="images/stars.png" alt="">
+                        <h4>$921</h4>
+                        <div class="plus-sign">
+                            <img src="images/plus.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section-3">
+                <div class="sec-3-imgs">
+                    <div class="tables">
+                        <img src="images/wooden table.png" alt="">
+                        <div class="table-bottom">
+                            <h3>Tables</h3>
+                            <h2>Wooden Table</h2>
+                            <img src="images/stars.png" alt="">
+                            <h4>$299</h4>
+                            <div class="plus-sign">
+                                <img src="images/plus.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sofas">
+                        <img src="images/sofa img.webp" alt="">
+                        <div class="sofa-bottom">
+                            <h3>Sofas</h3>
+                            <h2>Comfort Sofa</h2>
+                            <img src="images/stars.png" alt="">
+                            <h4>$499</h4>
+                            <div class="plus-sign">
+                                <img src="images/plus.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="beds-cart">
+                        <img src="images/king bed.png" alt="">
+                        <div class="bed-bottom">
+                            <h3>Beds</h3>
+                            <h2>King Size Bed</h2>
+                            <img src="images/stars.png" alt="">
+                            <h4>$699</h4>
+                            <div class="plus-sign-bed">
+                                <img src="images/plus.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="storage-cart">
+                        <img src="images/cabinet png.jfif" alt="">
+                        <div class="storage-bottom">
+                            <h3>Storage</h3>
+                            <h2>Modern Cabinet</h2>
+                            <img src="images/stars.png" alt="">
+                            <h4>$399</h4>
+                            <div class="plus-sign-bed">
+                                <img src="images/plus.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-part">
+                        <div class="coffee-table">
+                            <img src="images/coffee table.webp" alt="">
+                            <div class="coffee-bottom">
+                                <h3>Tables</h3>
+                                <h2>Round Coffee Table</h2>
+                                <img src="images/stars.png" alt="">
+                                <h4>$129</h4>
+                                <div class="plus-sign-bed">
+                                    <img src="images/plus.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relax-chair">
+                            <img src="images/restchair.png" alt="">
+                            <div class="rchair-bottom">
+                                <h3>Chairs</h3>
+                                <h2>Relax Chair</h2>
+                                <img src="images/stars.png" alt="">
+                                <h4>$299</h4>
+                                <div class="plus-sign-bed">
+                                    <img src="images/plus.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="seater-sofa">
+                            <img src="images/sofaa.png" alt="">
+                            <div class="seater-bottom">
+                                <h3>Sofas</h3>
+                                <h2>Loveseat Sofa</h2>
+                                <img src="images/stars.png" alt="">
+                                <h4>$399</h4>
+                                <div class="plus-sign-bed">
+                                    <img src="images/plus.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bedside-table">
+                            <img src="images/bedside.webp" alt="">
+                            <div class="bside-bottom">
+                                <h3>Storage</h3>
+                                <h2>Bedside Table</h2>
+                                <img src="images/stars.png" alt="">
+                                <h4>$149</h4>
+                                <div class="plus-sign-bed">
+                                    <img src="images/plus.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div id="accordion">
+                    <h3>Chair Collection</h3>
+                    <div>
+                        <p>
+                           Discover our Chair Collection. Includes Solaris Armchair, Bottar Chair & Relax Chair. Designed for comfort and style. Made with solid wood legs and premium velvet fabric. Perfect for home & office.
+
+                        </p>
+                    </div>
+                    <h3>Table collection</h3>
+                    <div>
+                        <p>
+                            Explore Tables. Wooden Side Table and Round Coffee Table. Made from high-quality Oak wood with metal finish. Modern, durable and space-saving. Best for living rooms.
+                        </p>
+                    </div>
+                    <h3>Sofa Collection</h3>
+                    <div>
+                        <p>Our Sofa Range - Comfort Sofa & Loveseat Sofa. Soft, spacious and luxurious. Material is washable linen fabric with high-density foam. 2 years warranty. Price $399-$599.
+                        </p>
+                        <ul>
+                            <li>Confort Sofa: Soft Linen fabric</li>
+                            <li>Loveseat Sofa: compact and Modern design</li>
+                            <li>material: High-density foam + Solid Wood Frame</li>
+                        </ul>
+                    </div>
+                    <h3>Bed & Storage Collection</h3>
+                    <div>
+                        <p>
+                            Upgrade your bedroom with King Size Bed and storage solutions. Strong frame, extra storage drawer, modern design. Material: Engineered wood + steel support. Price starts from $699.
+                        </p>
+                        <p>
+                            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos.
+                        </p>
+                    </div>
+                </div>
+
+
+            </section>
+
+
+            <!-- footer section -->
+            <footer class="footer">
+                <div class="main-footer-content">
+                    <div class="footer-content content">
+                        <h2>Panto</h2>
+                        <p>The advantage of hiring a workspace with us is that givees you
+                            comfortable service and all-around facilities.</p>
+                    </div>
+                    <div class="footer-content">
+                        <h3>services</h3>
+                        <ul>
+                            <li>EmailMarketing</li>
+                            <li>Campaigns</li>
+                            <li>Branding</li>
+                        </ul>
+                    </div>
+
+                    <div class="Furniture footer-content">
+                        <h3>Furniture</h3>
+                        <ul>
+                            <li>Beds</li>
+                            <li>Chairs</li>
+                            <li>All</li>
+                        </ul>
+                    </div>
+                    <div class="follow-us footer-content">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><img src="images/facebook.png" alt="facebook">Facebook</li>
+                            <li><img src="images/003-twitter.png" alt="twitter">Twitter</li>
+                            <li><img src="images/004-instagram.png" alt="instagram">Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Copyright">
+                    <small>Copyright © 2021</small>
+                </div>
+                <div class="terms">
+                    <h5>Terms & Conditions</h5>
+                    <h6>Privacy Policy</h6>
+                </div>
+
+            </footer>
+            <script src="app.js"></script>
 </body>
+
 </html>
