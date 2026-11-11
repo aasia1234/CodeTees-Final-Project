@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panto- Furniture Website</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -263,6 +265,43 @@
 
         </div>
     </div>
+    <form id="myForm">
+                            <div class="form-inputs">
+                                <div class="input">
+                                    <label for="">First name</label>
+                                    <input type="text" name="firstname" placeholder="First name">
+                                </div>
+                                <div class="input">
+                                    <label for="">Last name</label>
+                                    <input type="text" name="lastname" placeholder="Last name">
+                                </div>
+                            </div>
+                            <div class="form-inputs">
+                                <div class="input">
+                                    <label for="">Email</label>
+                                    <input type="text" name="email" placeholder="Email">
+                                </div>
+                                <div class="input">
+                                    <label for="">Phone</label>
+                                    <input type="text" name="phone" placeholder="phone">
+                                </div>
+                            </div>
+                            <div class="form-inputs">
+                                <div class="input">
+                                    <label for="">Date</label>
+                                    <input type="text" name="date" placeholder="Date">
+                                </div>
+                                <div class="input">
+                                    <label for="">Time</label>
+                                    <input type="text" name="time" placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="service-input">
+                                <label for=""></label>
+                                <input type="text" name="Address" placeholder="Address">
+                                <button type="submit">Send Massege</button>
+                            </div>
+                        </form>
     <!-- footer section -->
     <footer class="footer">
         <div class="main-footer-content">
@@ -306,6 +345,7 @@
         </div>
 
     </footer>
+    <script src="css/app.js"></script>
 </body>
 
 </html>

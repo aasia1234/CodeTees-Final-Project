@@ -1,4 +1,7 @@
-.menu {
+
+body{
+    overflow-x: hidden;
+}.menu {
     background-image: url(../images/background.png);
     background-position: center;
     background-repeat: no-repeat;
